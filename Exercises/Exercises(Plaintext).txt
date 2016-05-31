@@ -1,7 +1,10 @@
 How to practice a language !
 
-Here are some exercises to help you improving your skills in any programming language.
-The purpose of this exercise sheet is to allow anybody learning a new language to practise. Exercises are ordered by difficulty.
+这里有一些练习，可以帮助你提升任何编程语言的编程能力。
+
+这个练习簿的用途是让学习新语言的任何人练习。练习按难度排序。
+
+
 The exercises are taken from practical session of EPITA's first year.
 Document will be updated with new exercises and corrections are available for some languages.
 Since I am far from knowing every programming language, some exercise may not be as easy as they could be.
@@ -13,42 +16,39 @@ Tutorials are available all around the internet, but searching by yourself helps
 you were not looking for !
 Good luck :)
 
-Create a new project for the language you want to learn and add this file with the 
-right extension (.c for c, .cpp for C++, .cs for C#, etc.) regarding the language.
-You will need to add the corresponding headers/library/etc.
-
+为你要学习的语言创建一个新项目，添加这个文件，并且要确保根据语言的不同文件扩展名是正确的（c语言是.c，c++是.cpp，C#是.cs等等）。你会需要添加相关的头/库等等。
 
 
 Part One:
 
 
-FIXME: Declare variables
+FIXME: 声明变量
 Declare two variables: an integer named "age", and a string named "name" with corresponding values (your name and age)
 
-FIXME: Print
+FIXME: 打印
 Print the following sentence in the console "You are NAME and you are AGE years old !". Don't forget to add a newline at the end
 
-FiXME: Concatenation
+FiXME: 字符串连接
 Create a new string variable called "hello" which value is "Hello ". Add "name" at the end of "hello" (Concatenation) then print it
 
-FIXME: Array
+FIXME: 数组
 create a new string array called "shoppingList", with three elements of your choice. Create an int variable containing the number of
 elements in "shoppingList" (using a function of the array/using the array)
 
-FIXME: For-loop - Integer
+FIXME: For-循环 - Integer
 Create a simple for-loop for an integer "i" going from 1 to 10 that print the value of "i"
 
-FIXME: For-loop - shoppingList
+FIXME: For-循环 - shoppingList
 Create a for loop that iterate through "shoppingList" and prints each element.
 
-FIXME: Foreach-loop
+FIXME: Foreach-循环
 Do the same with a foreach-loop.
 
-FIXME: If-statement
+FIXME: If-语句
 Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
 by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
 
-FIXME: Sum Up
+FIXME: 总计
 Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains 
 "element". If yes, print "You have to buy (value of element) !", and stop the loop (search how to stop a loop).
 If not, print "Nope, you don't need (value of "element")".
@@ -60,35 +60,35 @@ If not, print "Nope, you don't need (value of "element")".
 Part Two:
 
 
-FIXME: Functions - Ascii
+FIXME: 函数 - Ascii
 Create a function that returns nothing and which doesn't takes any parameter. It should just be named "TriForce"
 and print the TriForce symbol (one triangle over two other ones, can be found on internet) with "TRIFORCE"
 Don't forget to call the function !
 
 
-FIXME: Functions - One parameter
+FIXME: 函数 - 一个参数
 Create a function that takes a string as parameter and returns "Hello (value of string) !"
 
-FIXME: Functions - Multiple parameters
+FIXME: 函数 - 多个参数
 Create a function that takes two integers as parameters and returns the addition of these two.
 You can do the same with multiplication, subtraction and division.
 
-FIXME: User entry
+FIXME: 用户输入
 Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
 
-FIXME: While loop
+FIXME: While 循环
 Create a while loop that takes a number and divides it by 2 until it is less than 3
 
-FIXME: do-While loop
+FIXME: do-While 循环
 Do the same with a do-while loop
 
-FIXME: Random generator
+FIXME: 随机数生成器
 Create a function that returns a random number
 
-FIXME: Random generator with bounds
+FIXME: 带有边界的随机数生成器
 Create another function that returns a random number between two bounds given as parameters.
 
-FIXME: Multidimensional array
+FIXME: 多维数组
 Create a two dimensional int array of 3 columns and 3 rows. Use 2 for-loops to add a random number
 between 1 and 9 in each of the 9 rooms.
 You may use one of the two previously created function.
@@ -102,10 +102,10 @@ FIXME: Switch
 Create a Switch that takes an integer "a" and return a sentence regarding the value of a
 (Create 3 statements for 3 specific values and a default one)
 
-FIXME: logic Gates
+FIXME: 逻辑门
 Create 7 functions for each logic gates (And, Or, No, Nand, Nor, Xnor, Xor).
 Each function takes two booleans as parameters and returns the result of the logic gate.
 (or You can do it with a switch and only one function)
 
-FIXME - Reverse
+FIXME - 反转
 Create a function that reverse a string
