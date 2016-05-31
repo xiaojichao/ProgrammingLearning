@@ -18,36 +18,35 @@ right extension (.c for c, .cpp for C++, .cs for C#, etc.) regarding the languag
 You will need to add the corresponding headers/library/etc.
 
 -------------------------------------------------------------------------------------------------------------
-Advance Question:
-These are question from actual interview with large companies.
+高级问题：
+这里有一些大公司的真实面试题。
 
-Microsoft Interview Question: 
-Write a Function to Reverse the word order of String 
-Sample: "This is a Cat" -> "Cat a is This" 
+微软的面试题：
+写一个函数反转子一个字符串的单词顺序
+例如： "This is a Cat" -> "Cat a is This" 
 
-Facebook Interview Question:
-Write a Function which proves if a String is a Palindrome 
+Facebook 面试题：
+写一个函数证明一个字符串是否是回文（Palindrome）
 Note: Word which is read the same Backward as Forward 
 
-Facebook Interview Question:
+Facebook 面试题：
 Given a List of Arrays, write a Function which will  
 Return True if Two of the Number equal 12 
 
-Microsoft Interview Question: 
-With a given Array  (Multidimensional Array) find location 
-Zero & Replaces all Columns & Rows with Zero 
-Sample:  
-Input:{  1,  2,  3,  4 } 
-   	  {  5,  6,  7,  8 } 
+Microsoft 面试题：
+对一个给定的多维数组，找到值为零的位置，并且将该位置所在的行和列上所有值替换为零。
+示例：
+输入: {  1,  2,  3,  4 } 
+   	{  5,  6,  7,  8 } 
       {  9, 10,  0, 11 } 
       { 12, 13, 14, 15 } 
 
-Output: {  1,  2,  0,  4 } 
-        {  5,  6,  0,  8 } 
-        {  0,  0,  0,  0 } 
-        { 12, 13,  0, 15 } 
+输出: {  1,  2,  0,  4 } 
+      {  5,  6,  0,  8 } 
+      {  0,  0,  0,  0 } 
+      { 12, 13,  0, 15 } 
 
-HackerRank Data Structure & Algorithm Questions 
+HackerRank 数据结构和算法面试题
 You are given an array of integers of size N . You need to print  
 the sum of the elements of the array.  
 
